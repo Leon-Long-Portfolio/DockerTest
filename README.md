@@ -1,16 +1,2 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/5WunfJN-)
-
-### Write Function to multiply matrices
-
-### Step 1:
-Write an empty function that its input are two matrices (A and B) and its output is the multiplication of A and B (C = A.B)
-
-### Step 2:
-Write test examples that will confirm your implementation based on the function defined in Step 1
-This includes wrong inputs, error conditions and correct output
-
-### Step 3:
-Write the details of the function
-
-### Step 4:
-Run GitHub Actions
+# Docker Excercise
+In this GitHub repository, I developed a Python application for matrix multiplication, encapsulated in a Docker container for easy deployment and execution across different environments. The project includes the matrix_multi.py script, which implements the algorithm for multiplying two matrices, and a suite of tests in test_matrix_multi.py to ensure the correctness of the multiplication functionality. To facilitate development and deployment, we created a Dockerfile that outlines the process for building a Docker image, containing all necessary dependencies, including Python itself and additional packages like memory_profiler and pytest.
